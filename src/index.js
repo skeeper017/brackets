@@ -34,10 +34,6 @@ module.exports = function check(str, bracketsConfig) {
     }
   }
 
-  // if (openBracketsCount == equalBrackets.length) {
-  //   return false;
-  // }
-
   // even/odd number of brackets (odd => false)
   if (equalBrackets.length !== 0) {
     return false;
